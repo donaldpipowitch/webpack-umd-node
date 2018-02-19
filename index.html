@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>App</title>
+</head>
+<body>
+  <section id="app">
+    <p>Loading...</p>
+  </section>
+
+  <script src="./dist/main.js"></script>
+  <script>
+      const app = document.getElementById('app');
+      const { multiply } = window.webpackUmdNode;
+      app.innerText = `2 * 2 = ${multiply(2, 2)}`;
+  </script>
+</body>
+</html>

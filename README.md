@@ -1,3 +1,7 @@
+:bulb: **Update**: This problem was discussed in https://github.com/webpack/webpack/issues/6522. Setting `output.globalObject` to `'this'` did the trick.
+
+---
+
 Just a small test case, because it looks like I cannot create an UMD build with webpack, which can be required by Node.
 
 Just run `yarn && yarn build && yarn test`.

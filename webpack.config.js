@@ -1,7 +1,8 @@
 module.exports = {
   output: {
     libraryTarget: 'umd',
-    library: 'webpackUmdNode'
+    library: 'webpackUmdNode',
+    globalObject: 'this'
   },
-  mode: 'production'
+  mode: 'development'
 };
